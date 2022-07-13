@@ -2,7 +2,7 @@
     "canisters": {
         "site": {
             "type": "assets",
-            "sources": [
+            "source": [
                 "dist"
             ],
             "hostname": "super-cool-site-by-krpeacock.netlify.app"
