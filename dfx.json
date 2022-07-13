@@ -1,0 +1,11 @@
+{
+    "canisters": {
+        "site": {
+            "type": "assets",
+            "sources": [
+                "dist"
+            ],
+            "hostname": "super-cool-site-by-krpeacock.netlify.app"
+        }
+    }
+}

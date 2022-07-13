@@ -1,0 +1,7 @@
+# Local Netlify folder
+.netlify
+.dfx
+node_modules
+dist
+serviceworker
+ic

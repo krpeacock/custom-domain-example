@@ -1,0 +1,23 @@
+{
+  "name": "custom-domain-example",
+  "version": "1.0.0",
+  "description": "For this example, I'll be using Netlify.",
+  "main": "index.js",
+  "scripts": {
+    "build": "cp -r src/assets dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krpeacock/custom-domain-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krpeacock/custom-domain-example/issues"
+  },
+  "homepage": "https://github.com/krpeacock/custom-domain-example#readme",
+  "devDependencies": {
+    "ts-node": "^10.8.2"
+  }
+}
