@@ -1,3 +1,4 @@
+git submodule update --init --remote
 npx ts-node modifyServiceworker.ts
 pushd ic/typescript/service-worker
 npm install
