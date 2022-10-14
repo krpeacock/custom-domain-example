@@ -1,9 +1,14 @@
 {
     "canisters": {
+        "whoami": {
+            "main": "src/whoami/main.mo",
+            "type": "motoko"
+        },
         "site": {
             "type": "assets",
             "source": [
-                "dist"
+                "dist",
+                "src/assets"
             ],
             "hostname": "super-cool-site-by-krpeacock.netlify.app"
         }

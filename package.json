@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "For this example, I'll be using Netlify.",
   "scripts": {
-"start": "parcel src/index.html",
-"build": "parcel build src/index.html"
+    "start": "parcel src/site/index.html",
+    "build": "parcel build src/site/index.html"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,13 @@
   "homepage": "https://github.com/krpeacock/custom-domain-example#readme",
   "devDependencies": {
     "parcel": "^2.6.2",
+    "process": "^0.11.10",
     "ts-node": "^10.8.2"
+  },
+  "dependencies": {
+    "@dfinity/agent": "^0.14.0",
+    "@dfinity/auth-client": "^0.14.0",
+    "@dfinity/principal": "^0.14.0",
+    "lit-html": "^2.4.0"
   }
 }

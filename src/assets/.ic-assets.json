@@ -1,0 +1,22 @@
+[
+    {
+        "match": ".well-known",
+        "headers": {
+            "Access-Control-Allow-Origin": "*"
+        },
+        "ignore": false
+    },
+    {
+        "match": ".ic-assets.json",
+        "headers": {
+            "Access-Control-Allow-Origin": "*"
+        },
+        "ignore": false
+    },
+    {
+        "match": "*.js",
+        "headers": {
+            "Cache-Control": "max-age=31536000, immutable"
+        }
+    }
+]
